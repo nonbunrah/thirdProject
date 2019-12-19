@@ -7,13 +7,13 @@ class StaticModels {
 			.catch(error => console.log('Could not GET all people \n', error));
 	};
 
-	static create = (todo) => {
+	static create = (name) => {
 		return fetch(endPoint, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
 			},
-			body: JSON.stringify(todo)
+			body: JSON.stringify(name)
 		})
 		.then(response => response.json())
 		.catch(error => console.log('Could not POST person \n', error))

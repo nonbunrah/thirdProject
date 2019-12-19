@@ -1,6 +1,12 @@
 h1 {
   text-align: center;
 }
+
 .App {
   font-family: Times New Roman;
+}
+
+.deleteButton {
+	background-color: red;
+	color: white;
 }

@@ -8,7 +8,7 @@ class Header extends Component {
 				<nav>
 					<Link to={'/'}>HomePage </Link>
 					<Link to={'/Names'}>Names </Link>
-					<Link to={'/Form'}>Form </Link>
+					<Link to={'/Form'}>Create</Link>
 				</nav>
 			</header>
 		)

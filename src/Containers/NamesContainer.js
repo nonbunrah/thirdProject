@@ -22,12 +22,12 @@ class NamesContainer extends Component {
 
 	render () {
 		let namesList = this.state.names.map(nameItem => {
-			return <Names name={nameItem.name} />
+			return <Names name={nameItem} id={nameItem.rowid}/>
 		})
 
 		return (
 			<div>
-				<h2>Names</h2>
+				<h2>GET Names</h2>
 					<ul>
 						{ namesList }
 					</ul>
