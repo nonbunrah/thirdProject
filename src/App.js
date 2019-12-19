@@ -1,26 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Header from './Components/Header'
+import Form from './Components/Form.js'
+import NamesContainer from './Containers/NamesContainer'
 import logo from './logo.svg';
 import './App.css';
+import {Switch, Route} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  render () {
+    return (
+      <div className="App">
+        <h1>Third Project</h1>
+        <Header />
+          <Switch>
+            <Route path='/Names' component={NamesContainer} />
+            <Route path='/Form' component={Form} />
+          </Switch>
+      </div>
+    )
+  }
 }
 
 export default App;
