@@ -25,7 +25,7 @@ class Names extends Component {
 			<div>
 			<p>{this.state.data.name}</p>
 			<li>
-				{this.props.name.firstName} {this.props.name.lastName} {this.props.id}
+				{this.props.name.firstName} {this.props.name.lastName}
 					<div>
 					<Link to={`/${this.props.id}`}>
 						<button>Info</button>

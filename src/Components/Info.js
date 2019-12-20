@@ -10,14 +10,13 @@ class Info extends Component {
 				method: 'DELETE'
 			})
 		.then(res=> {
-			if(res.status == 200)
+			if(res.status === 200)
 				this.props.history.push('/Names')
 			else
 				console.log("delete unsuccessful")
 		})
 		.catch(error=> console.log(error))
 	}
-
 
 componentDidMount = () => {
 	let {id} = this.props.match.params
@@ -26,9 +25,7 @@ componentDidMount = () => {
 		.then(res=>res.json())
 		//.then(res=> console.log(res))
 		.then(res=>this.setState({personInfo: res}))
-		
 	}
-
 
 	render () {
 		console.log(this.state.personInfo)
@@ -40,7 +37,7 @@ componentDidMount = () => {
 				<button 
 					value="edit" 
 					onClick={()=>this.props.history.push('/EditForm', {...this.state.personInfo})}>Edit</button>
-				<button class="deleteButton"
+				<button className="deleteButton"
 					onClick={this.handleDelete}
 					>Delete</button>
 			</div>

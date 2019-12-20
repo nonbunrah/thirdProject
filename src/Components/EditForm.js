@@ -18,7 +18,7 @@ class EditForm extends Component {
 		if(this.props.location.state !== undefined) {
 			document.getElementById('first').value=this.props.location.state.firstName
 			document.getElementById('last').value=this.props.location.state.lastName
-			document.getElementById('birthdate').value=this.props.location.state.date_of_birth
+			document.getElementById('birthdate').defaultValue=this.props.location.state.date_of_birth
 
 		this.setState({
 			firstName: this.props.location.state.firstName,
@@ -48,7 +48,6 @@ class EditForm extends Component {
 			fetch(`http://localhost:3000/api/people/${this.state.oid}`, {
 				method: 'PUT',
 				headers: {'Content-Type': 'application/json'},
-				//{this.state} is NULL
 				body: JSON.stringify({
 					firstName: this.state.firstName,
 					lastName: this.state.lastName,
@@ -131,9 +130,8 @@ class EditForm extends Component {
 						onChange={this.handleChange} 
 						name='dob' 
 						id='birthdate'
-						type="date" 
-						placeholder="mm/dd/yyyy"
-						value={this.state.dob}
+						type="text" 
+						//value={this.props.location.state.date_of_birth}
 						/>
 					<div style={{fontSize: 12, color: "red"}}>
 					{this.state.dobError}</div>
