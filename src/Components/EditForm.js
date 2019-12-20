@@ -130,7 +130,7 @@ class EditForm extends Component {
 						onChange={this.handleChange} 
 						name='dob' 
 						id='birthdate'
-						type="text" 
+						type="date" 
 						//value={this.props.location.state.date_of_birth}
 						/>
 					<div style={{fontSize: 12, color: "red"}}>
