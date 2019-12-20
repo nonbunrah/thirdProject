@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-##Wireframes
+## Wireframes
 <img src="./Images/get.jpeg">
 <img src="./Images/getby1.jpeg">
 <img src="./Images/post.jpeg">
