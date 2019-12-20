@@ -71,5 +71,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 <img src="./Images/get.jpeg">
 <img src="./Images/getby1.jpeg">
 <img src="./Images/post.jpeg">
-<img src="./Images/put.jpeg>"
+<img src="./Images/put.jpeg>">
 
