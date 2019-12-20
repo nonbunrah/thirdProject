@@ -2,6 +2,14 @@ h1 {
   text-align: center;
 }
 
+html {
+	background-color: #80dfff;
+/* 	background-image: url('https://media2.giphy.com/media/CYrBAoFl9FK5G/giphy.gif?cid=790b761178e41173741c4b9cf66dbc93f70390885466c0f4&rid=giphy.gif');
+  background-size: 300px 100px;
+  background-repeat: repeat;
+  background-position: center; */
+}
+
 .App {
   font-family: Times New Roman;
 }
@@ -64,8 +72,10 @@ footer {
 
 .home {
 	border: 5px solid black;
-	padding-right: 20%;
-	padding-left: 20%;
-	margin-right: 20%;
-	margin-left: 20%;
+}
+
+button {
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
 }

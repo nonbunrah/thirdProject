@@ -31,7 +31,7 @@ componentDidMount = () => {
 		console.log(this.state.personInfo)
 		return (
 			<div className="info">
-				<h2>Get by 1 Names</h2>
+				<h2>Get by 1 Name</h2>
 				<p><b>First Name:</b> {this.state.personInfo.length ? 'Loading...' : this.state.personInfo.firstName}</p>
 				<p><b>Last Name:</b> {this.state.personInfo.length ? 'Loading...' : this.state.personInfo.lastName}</p>
 				<p><b>Date of birth:</b> {this.state.personInfo.length ? 'Loading...' : this.state.personInfo.date_of_birth}</p>
