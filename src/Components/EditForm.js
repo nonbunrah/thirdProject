@@ -96,7 +96,7 @@ class EditForm extends Component {
 
 	render () {
 		return (
-			<form onSubmit={this.handleSubmit}>
+			<form className="editForm" onSubmit={this.handleSubmit}>
 			<h2>PUT Names</h2>
 				<div>
 					<p className="inputText"> First Name </p> 

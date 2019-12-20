@@ -26,7 +26,7 @@ class NamesContainer extends Component {
 		})
 
 		return (
-			<div>
+			<div className="namesContainer">
 				<h2>GET Names</h2>
 					<ul>
 						{ namesList }

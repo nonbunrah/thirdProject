@@ -22,7 +22,7 @@ class Names extends Component {
 	render () {
 
 		return (
-			<div>
+			<div className="names">
 			<p>{this.state.data.name}</p>
 			<li>
 				{this.props.name.firstName} {this.props.name.lastName}

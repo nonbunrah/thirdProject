@@ -10,3 +10,62 @@ h1 {
 	background-color: red;
 	color: white;
 }
+
+nav {
+	text-align: center;
+}
+
+.namesContainer {
+	border: 5px solid black;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.form {
+	border: 5px solid black;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.editForm {
+	border: 5px solid black;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.info {
+	border: 5px solid black;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background-color: black;
+	font-size: 18px;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-top: 15px;
+	bottom:  0;
+}
+
+.home {
+	border: 5px solid black;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
