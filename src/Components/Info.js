@@ -7,8 +7,8 @@ class Info extends Component {
 
 	handleDelete = () => {
 		fetch(`http://localhost:3000/api/people/${this.state.personInfo.rowid}`, {
-				method: 'DELETE'
-			})
+			method: 'DELETE'
+		})
 		.then(res=> {
 			if(res.status === 200)
 				this.props.history.push('/Names')

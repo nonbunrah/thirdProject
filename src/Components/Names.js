@@ -9,8 +9,8 @@ class Names extends Component {
 	componentDidMount(){
 		this.search()
 	}
-	search = ()=>{
-		let url = `http://localhost:3000/api/people/${this.props.id}	`
+	search = () => {
+		let url = `http://localhost:3000/api/people/${this.props.id}`
 		fetch(url)
 			.then((response)=>response.json())
 			.then(data=>this.setState({

@@ -131,7 +131,6 @@ class EditForm extends Component {
 						name='dob' 
 						id='birthdate'
 						type="date" 
-						//value={this.props.location.state.date_of_birth}
 						/>
 					<div style={{fontSize: 12, color: "red"}}>
 					{this.state.dobError}</div>
